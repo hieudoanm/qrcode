@@ -1,11 +1,11 @@
 {
   "name": "@qrcode/app",
   "version": "0.0.1",
-  "description": "QRCode",
+  "description": "qrcode",
   "keywords": [
     "qrcode"
   ],
-  "homepage": "https://github.com/hieudoanm/qrcode#readme",
+  "homepage": "https://hieudoanm.github.io/qrcode",
   "bugs": {
     "url": "https://github.com/hieudoanm/qrcode/issues"
   },
@@ -22,13 +22,13 @@
   "scripts": {
     "dev": "turbo run dev",
     "lint": "turbo run lint",
+    "test": "turbo run test",
     "build": "turbo run build",
     "format": "turbo run format",
     "prepare": "husky || true"
   },
   "devDependencies": {
     "husky": "9.1.7",
-    "rimraf": "6.1.2",
     "turbo": "2.6.3"
   }
 }
