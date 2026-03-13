@@ -1,10 +1,11 @@
 import { Divider } from '@qrcode/components/Divider';
 import { Navbar } from '@qrcode/components/Navbar';
 import { download } from '@qrcode/utils/download';
+import { NextPage } from 'next';
 import { toDataURL } from 'qrcode';
-import { FC, useState } from 'react';
+import { useState } from 'react';
 
-const HomePage: FC = () => {
+const HomePage: NextPage = () => {
   const [{ dataURL = '', url = 'https://google.com' }, setState] = useState<{
     dataURL: string;
     url: string;
