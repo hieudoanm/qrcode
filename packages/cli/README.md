@@ -11,9 +11,7 @@
 ## 📦 Installation
 
 ```bash
-curl -fsSL https://github.com/hieudoanm/qrcode/raw/refs/heads/master/packages/cli/bin/qrcode -o qrcode
-chmod +x qrcode
-sudo mv qrcode /usr/local/bin/
+curl -fsSL https://raw.githubusercontent.com/hieudoanm/qrcode/master/packages/cli/scripts/install.sh | bash
 ```
 
 ## 🚀 Usage
