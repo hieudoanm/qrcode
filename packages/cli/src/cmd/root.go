@@ -11,14 +11,11 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "qrcode-cli",
-	Short: "A brief description of your application",
-	Long: `A longer description that spans multiple lines and likely contains
-examples and usage of using your application. For example:
+	Use:   "github.com/hieudoanm/qrcode",
+	Short: "Qrcode CLI application (utilities tools)",
+	Long:  `The qrcode CLI application is a comprehensive backend utility belonging to the utilities suite of tools.
 
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+Use this root executable to manage configuring, running, and interacting with all qrcode-related operations securely and efficiently from your terminal.`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },
@@ -38,7 +35,7 @@ func init() {
 	// Cobra supports persistent flags, which, if defined here,
 	// will be global for your application.
 
-	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.qrcode-cli.yaml)")
+	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.github.com/hieudoanm/qrcode.yaml)")
 
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.

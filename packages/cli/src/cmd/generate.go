@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"qrcode-cli/utils/figlet"
+	"github.com/hieudoanm/qrcode/src/utils/figlet"
 
 	"github.com/spf13/cobra"
 
@@ -15,17 +15,10 @@ import (
 // generateCmd represents the qrcode command
 var generateCmd = &cobra.Command{
 	Use:   "generate",
-	Short: "Generate a QR code from a URL",
-	Long: `Generate a QR code image from a given URL.
+	Short: "Run the generate operation for the qrcode app",
+	Long:  `The generate command is a specific utility to execute operations related to generate within the qrcode application.
 
-This command prompts the user to input a URL and generates a PNG QR code
-file named "qrcode.png" in the current executable's directory.
-
-Example usage:
-  qrcode-cli generate
-  (then enter a URL when prompted)
-
-The generated QR code uses the highest error correction level and a 256x256 size.`,
+As a component of the utilities tools, this command empowers you to interact directly with qrcode's generate features via the CLI.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		figlet.LogProgramName()
 		// Get URL
