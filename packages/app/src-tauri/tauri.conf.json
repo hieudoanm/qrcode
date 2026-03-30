@@ -1,6 +1,6 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "QRCode",
+  "productName": "qrcode",
   "version": "0.0.1",
   "identifier": "io.github.hieudoanm.qrcode",
   "build": {
